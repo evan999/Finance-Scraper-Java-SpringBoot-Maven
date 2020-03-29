@@ -13,7 +13,9 @@ public class FinanceWebScraperApplication {
 		System.out.println("Web Scraper started");
 		System.setProperty("webdriver.chrome.driver", "C:/chromedriver_win32/chromedriver.exe");
 		//WebDriver driver = new ChromeDriver();
-	    Driver.startDriver();
+	    //Driver.startDriver();
+		JdbcConnection db = new JdbcConnection();
+		db.ConnectToDatabase();
 	}
 
 }
