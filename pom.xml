@@ -64,6 +64,12 @@
 			  <artifactId>selenium-java</artifactId>
 			  <version>3.141.59</version>
 		</dependency>
+		<dependency>
+			  <groupId>org.hibernate</groupId>
+			  <artifactId>hibernate-agroal</artifactId>
+			  <version>5.3.16.Final</version>
+			  <type>pom</type>
+		</dependency>
 	</dependencies>
 
 	<build>
